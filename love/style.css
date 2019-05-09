@@ -137,10 +137,7 @@ nav a:hover{
      border-left:20px solid #1aaa1a;
      padding-left:10px;
  }
- .catbox{
-     width:25px;
-     height:25px;
- }
+
 #slider{
     width:100%;
     max-width:100%;
@@ -158,4 +155,24 @@ nav a:hover{
     width:15px;
     height:15px;
     border-radius:20px;
+}
+.catbox{
+    width:250px;
+    height:250px;
+    overflow:hidden;
+    float:left;
+    position:relative;
+    margin:0 20 30;
+}
+.catbox span{
+    width:100%;
+    background:rgba(0,0,0.6);
+    line-height:35px;
+
+    color:white;
+    display:block;
+    bottom:30px;
+    position:absolute;
+    z-index:999;
+    text-align: center;
 }
